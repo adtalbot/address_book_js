@@ -1,0 +1,55 @@
+body {
+  font-size: 16px;
+  font-family: 'Rokkitt', serif;
+  background-color: #334648;
+  color: #000;
+
+}
+
+#show-contact {
+  display: none;
+}
+
+.contact {
+  cursor: pointer;
+  color:  #fff;
+}
+
+.contact:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+img {
+  float: right;
+}
+
+.jumbotron {
+  position: relative;
+  background: #000 url("../img/notebook.jpg") center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.jumbotron h1 {
+  font-family: 'Rock Salt', cursive;
+  margin-bottom: 10px;
+}
+
+.jumbotron p {
+  font-family: 'Rokkitt', serif;
+  font-size: 16px;
+  margin-left: 65px;
+  border-top: 1px solid #000;
+  padding-top: 3px;
+}
+
+.btn {
+  background-color: #dddddd;
+}
+
+#new-contact {
+  margin-bottom: 75px;
+}
